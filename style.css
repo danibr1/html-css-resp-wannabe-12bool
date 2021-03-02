@@ -1,0 +1,133 @@
+/* ####################################################
+  CLEANING
+######################################################*/
+
+  /* .row {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  } */
+
+  /* BLOCCO LEZIONI */
+  /* #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    float: left;
+  } */
+
+  /* BLOCCO STEPS */
+  /* #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 33%;
+  } */
+
+
+  /* COMMON */
+  /* .row::after {
+    content: '';
+    display: table;
+    clear: both;
+  } */
+
+
+  /* .clear {
+    clear: both;
+  } */
+
+/* ###################################################*/ 
+
+/* GENERAL */
+img {
+  height: 100px;
+}
+
+h1{
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  padding:0 1rem;
+  margin-bottom: 2.5rem ;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+/* SECTION LEZIONI */
+#lezioni {
+  text-align: center;
+}
+
+#lezioni{
+  margin-bottom: 40px;
+}
+
+#lezioni .row img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* SECTION STEPS */
+#steps {
+  text-align: center;
+}
+
+/* SECTION PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .first,
+#why .second,
+#why .third {
+  margin-top: 2rem;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/***************************************************************
+  MEDIA QUERY
+****************************************************************/
+
+/* XS MOBILE */
+@media screen and (max-width: 767px){
+  #why{
+   background-color: rgb(204, 241, 229); 
+  }
+}
+
+/* MD TABLET */
+@media screen and (max-width: 991px) and (min-width: 768px){
+  img {
+    height: 150px;
+  }
+  #why{
+    margin-top: 50px;
+    background-color: rgb(241, 231, 204);
+  }
+}
+
+/* LG DESKTOP */
+@media screen and (min-width: 992px){
+  img {
+    height: 200px;
+  }
+
+  #why{
+    margin-top: 100px;
+  }
+}
